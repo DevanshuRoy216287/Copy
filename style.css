@@ -1,0 +1,239 @@
+/*html {
+    font-family: "DM Serif Text", serif;
+}*/
+
+/*html {
+    font-family: "Oswald", sans-serif;
+}*/
+
+/*html {
+    font-family: "Roboto Mono", monospace;
+}*/
+
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#first-header {
+    background-color: rgb(0, 0, 51);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 6vh;
+}
+
+#brands-heading {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    z-index: 2;
+    font-size: 2.25vh;
+    position: absolute;
+    top: -1.3vh;
+    left: 4vw;
+}
+
+#cxa {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 900;
+    color: white;
+    z-index: 2;
+    font-size: 2.9vh;
+    position: absolute;
+    top: -2.5vh;
+    left: 12vw;
+    letter-spacing: 0.5px;
+}
+
+#follain {
+    font-family: "DM Serif Text", serif;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    font-size: 2.25vh;
+    position: absolute;
+    top: -1.1vh;
+    left: 18vw;
+    letter-spacing: 0.5px;
+}
+
+#credo {
+    font-family: "DM Serif Text", serif;
+    color: white;
+    z-index: 2;
+    font-size: 2.6vh;
+    position: absolute;
+    top: -1.6vh;
+    left: 25vw;
+    letter-spacing: 5px;
+}
+
+.shipping-text {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    z-index: 2;
+    font-size: 2.25vh;
+    position: absolute;
+    top: -1.3vh;
+    left: 36vw;
+}
+
+.links {
+    font-family: "Oswald", sans-serif;
+}
+
+.find-a-store {
+    color: white;
+    z-index: 2;
+    font-size: 2.25vh;
+    position: absolute;
+    top: -1.3vh;
+    right: 30vw;
+}
+
+.services {
+    color: white;
+    z-index: 2;
+    font-size: 2.25vh;
+    position: absolute;
+    top: -1.3vh;
+    right: 25vw;
+}
+
+.credo-rewards {
+    color: white;
+    z-index: 2;
+    font-size: 2.25vh;
+    position: absolute;
+    top: -1.3vh;
+    right: 17vw;
+}
+
+.pact-program {
+    color: white;
+    z-index: 2;
+    font-size: 2.25vh;
+    position: absolute;
+    top: -1.3vh;
+    right: 10vw;
+}
+
+.support-text {
+    color: white;
+    z-index: 2;
+    font-size: 2.25vh;
+    position: absolute;
+    top: -1.3vh;
+    right: 5vw;
+}
+
+
+.support-image{
+    position: absolute;
+    width: 2.5vh;
+    height: 2.5vh;
+    top: 1.8vh;
+    right: 6.5vh;
+    position: absolute;
+}
+
+.logo1 {
+    position: absolute;
+    color: rgb(12, 86, 103);
+    font-family: "DM Serif Text", serif;
+    z-index: 2;
+    position: absolute;
+    left: 2vw;
+    top: 0.5vw;
+    font-size: 3vw;
+}
+
+.logo2 {
+    position: absolute;
+    color: rgb(12, 86, 103);
+    font-family: "Roboto Mono", monospace;
+    z-index: 2;
+    position: absolute;
+    left: 4vw;
+    top: 6.2vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.searchbar {
+    position: absolute;
+    top: 4.8vw;
+    left: 47vw;
+    width: 23vw;
+    height: 5.5vh;
+    border: 2.2px solid rgb(12, 86, 103); /*#0C5667*/
+    border-radius: 4px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 1vh;
+    left: 2vh;
+    width: 3.5vh;
+    height: 3.5vh;
+    z-index: 2;
+}
+
+.chat-icon{
+    position: absolute;
+    top: 4.8vw;
+    right: 24vw;
+    width: 6vh;
+    height: 6vh;
+    z-index: 2;
+}
+
+.chat-text {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 800;
+    color: rgb(12, 86, 103);
+    z-index: 2;
+    font-size: 2.2vh;
+    position: absolute;
+    top: 4.4vw;
+    right: 17vw;
+}
+
+.horizontal-line {
+    position: absolute;
+    width: 2px;
+    background-color: rgb(12, 86, 103);
+    height: 3.5vw;
+    right: 15vw;
+    top: 4.5vw;
+}
+
+.icon1 {
+    position: absolute;
+    top: 5.2vw;
+    right: 11vw;
+    width: 4vh;
+    height: 4vh;
+    z-index: 2;
+}
+
+.icon2 {
+    position: absolute;
+    top: 5.2vw;
+    right: 7vw;
+    width: 4vh;
+    height: 4vh;
+    z-index: 2;
+}
+
+.icon3 {
+    position: absolute;
+    top: 5.2vw;
+    right: 3vw;
+    width: 4vh;
+    height: 4vh;
+    z-index: 2;
+}
