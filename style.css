@@ -158,8 +158,8 @@ html {
     z-index: 2;
     position: absolute;
     left: 4vw;
-    top: 6.2vw;
-    font-size: 1vw;
+    top: 6vw;
+    font-size: 0.85vw;
     font-weight: 500;
 }
 
@@ -236,4 +236,130 @@ html {
     width: 4vh;
     height: 4vh;
     z-index: 2;
+}
+
+.categories {
+    position: absolute;
+    top: 9vw;
+    left: 0;
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(236, 236, 236);
+    color: rgb(12, 86, 103) !important;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 900;
+}
+
+.bestsellers {
+    position: absolute;
+    top: -1vh;
+    left: 12vw;
+}
+
+.new {
+    position: absolute;
+    top: -1vh;
+    left: 22vw;
+}
+
+.skin {
+    position: absolute;
+    top: -1vh;
+    left: 27vw;
+}
+
+.makeup {
+    position: absolute;
+    top: -1vh;
+    left: 33vw;
+}
+
+.hair {
+    position: absolute;
+    top: -1vh;
+    left: 40vw;
+}
+
+.body {
+    position: absolute;
+    top: -1vh;
+    left: 46vw;
+}
+
+.fragrance {
+    position: absolute;
+    top: -1vh;
+    left: 51.5vw;
+}
+
+.gifts {
+    position: absolute;
+    top: -1vh;
+    left: 60vw;
+}
+
+.sale {
+    position: absolute;
+    top: -1vh;
+    left: 66.5vw;
+}
+
+.brand {
+    position: absolute;
+    top: -1vh;
+    left: 72vw;
+}
+
+.mission {
+    position: absolute;
+    top: -1vh;
+    left: 80vw;
+}
+
+/*#f2f2f2*/
+
+.image {
+    position: absolute;
+    top: 14vw;
+    left: 5vw;
+    width: 90vw;
+    height: 60vh;
+    background-color: #f2f2f2;
+}
+
+.main-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60vh;
+}
+
+.main-text {
+    position: absolute;
+    top: 17vw;
+    left: 12.5vw;
+    font-size: 4.1vw;
+    color: rgb(12, 86, 103);
+    font-family: "DM Serif Text", serif;
+    font-weight: 500;
+}
+
+.side-text {
+    position: absolute;
+    top: 26.5vw;
+    left: 12.5vw;
+    font-size: 2.6vh;
+    color: rgb(12, 86, 103);
+    font-family: "DM Serif Text", serif;
+}
+
+.shop-now {
+    position: absolute;
+    top: 29.5vw;
+    left: 12.5vw;
+    font-size: 2.5vh;
+    color: rgb(16, 135, 162) !important;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 900;
+    text-decoration: underline;
 }
