@@ -363,3 +363,79 @@ html {
     font-weight: 900;
     text-decoration: underline;
 }
+
+.hot-weather-heroes-text {
+    position: absolute;
+    top: 45vw;
+    left: 3vw;
+    font-size: 2.5vw;
+    color: rgb(12, 86, 103);
+    font-family: "DM Serif Text", serif;
+    font-weight: 600;
+}
+
+.hot-weather-heroes {
+    position: absolute;
+    top: 52vw;
+    left: 2vw;
+    width: 96vw;
+    height: 62vh;
+    display: flex;
+    gap: 2vw;
+}
+
+.box {
+    position: relative;
+    width: 14.3vw;
+    height: 100vh;
+    background-color:white;
+}
+
+/*#f7f7f5*/
+
+.box-in-box {
+    top: 0;
+    width: 14.3vw;
+    height: 35vh;
+    background-color: #f7f7f5;
+    position: relative;
+}
+
+.box-image {
+    position: absolute;
+    bottom: 4vh;
+    left: 30%;
+    width: 5vw;
+}
+
+.box-brand {
+    position: absolute;
+    top: 35vh;
+    left: 0vh;
+    font-size: 2vh;
+    color: rgb(12, 86, 103);
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+
+.title-container {
+    position: absolute;
+    top: 37vh;
+    left: 0vh;
+}
+
+.box-title {
+    font-size: 3vh;
+    color: rgb(12, 86, 103);
+    font-family: "DM Serif Text", serif;
+    letter-spacing: -0.5px;
+    line-height: 3.3vh;
+    margin-bottom: 3.5vh;
+}
+
+.cost {
+    font-size: 2.1vh;
+    color: rgb(12, 86, 103);
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+}
